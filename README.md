@@ -6,17 +6,17 @@ This repository is the complete submission for the Agile/Scrum assignment (Part 
 
 ---
 
-## ⚠️ Before you submit — replace the placeholder team
+## Submission
 
-The team members below are **placeholders**. Swap in your real BITS team members' names and IDs in [`docs/00-team-and-roles.md`](docs/00-team-and-roles.md) (and the collaboration log) before submitting. Roles are pre-assigned to a 5-person team; adjust to your group size.
+**Submitted by: Aniket Shaw** — solo submission (one person performed all Scrum roles). The role *personas* used in the session logs are documented in [`docs/00-team-and-roles.md`](docs/00-team-and-roles.md). Repository: <https://github.com/aniketshaw29/bits-agile-scrum-kerbside>
 
-| Role | Placeholder | Responsibility |
+| Scrum role | Persona (in session logs) | Responsibility |
 |---|---|---|
 | Product Owner (PO) | *Aarav* | Owns the vision, backlog, priorities, acceptance |
 | Scrum Master (SM) | *Diya* | Facilitates ceremonies, removes blockers, guards the process |
 | Developer — Frontend / Map | *Kabir* | Map UI, client flows |
 | Developer — Backend / API | *Meera* | Data model, API, services |
-| QA / UX | *Rohan* | Acceptance tests, usability, accessibility |
+| Developer — QA / UX | *Rohan* | Acceptance tests, usability, accessibility |
 
 ---
 
@@ -40,7 +40,7 @@ The team members below are **placeholders**. Swap in your real BITS team members
 | 3 | High-level release planning (quarterly = 6 sprints) | [`docs/10-release-planning.md`](docs/10-release-planning.md) |
 
 ### Supporting (bonus — collaboration evidence)
-- [`docs/00-team-and-roles.md`](docs/00-team-and-roles.md) — roles, rotation, working agreement
+- [`docs/00-team-and-roles.md`](docs/00-team-and-roles.md) — roles performed, working agreement
 - [`docs/collaboration-log.md`](docs/collaboration-log.md) — ideation, backlog grooming, planning-poker sessions, task breakdown
 - [`backlog/kerbside-backlog.csv`](backlog/kerbside-backlog.csv) — Jira-importable backlog (issue type, epic link, MoSCoW, points)
 

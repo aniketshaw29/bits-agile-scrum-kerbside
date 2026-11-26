@@ -2,9 +2,9 @@
 
 *(Assignment Note 5: "Additional points will be given for showing the collaboration sessions / ideation / group activities including planning poker, task breakdown etc.")*
 
-This log is the "how we worked together" record. Dates are illustrative — adjust to your team's real session calendar. Roles rotate per our [working agreement](00-team-and-roles.md); the facilitator is noted per session.
+This log is the "how we worked" record. Dates are illustrative — adjust to your real session calendar. Each session notes which role perspective facilitated, per our [working agreement](00-team-and-roles.md).
 
-> Replace placeholder names (*Aarav, Diya, Kabir, Meera, Rohan*) with real team members before submission.
+> **Solo submission by Aniket Shaw.** The persona names below (*Aarav, Diya, Kabir, Meera, Rohan*) are **role perspectives** one person adopted to work through each Scrum role — not separate team members. See [doc 00](00-team-and-roles.md).
 
 ---
 
