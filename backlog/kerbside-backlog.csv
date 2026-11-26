@@ -1,0 +1,60 @@
+Issue Type,Summary,Epic Link,Story Points,Priority,MoSCoW,Sprint,Release,Depends On,Labels
+Epic,Street Asset Map & Adoption,,,Highest,Must,,R1,,epic
+Epic,Upkeep Rotas & Reminders,,,Highest,Must,,R2,,epic
+Epic,Condition Reporting & Photo Timeline,,,High,Should,,R3,,epic
+Epic,Council Liaison & Escalation,,,High,Should,,R3,,epic
+Epic,Working Bees & Volunteer Coordination,,,Medium,Could,,R4,,epic
+Epic,Recognition & Clean Handover,,,Medium,Could,,R5,,epic
+Story,US-01 Browse the asset map,Street Asset Map & Adoption,5,Highest,Must,Sprint 4,R1,,"map,F1.1"
+Story,US-02 View a spot's details & status,Street Asset Map & Adoption,3,Highest,Must,Sprint 5,R1,US-01,"map,F1.1"
+Story,US-03 Filter the map,Street Asset Map & Adoption,3,High,Should,Sprint 6,R1,US-01,"map,F1.1"
+Story,US-04 Add a new asset,Street Asset Map & Adoption,5,Highest,Must,Sprint 5,R1,US-01,"map,F1.1"
+Story,US-05 Adopt a spot as sole steward,Street Asset Map & Adoption,5,Highest,Must,Sprint 6,R1,US-02,"adoption,F1.2"
+Story,US-06 Invite a co-steward,Street Asset Map & Adoption,5,High,Should,Sprint 7,R2,US-05,"adoption,F1.2"
+Story,US-07 Neighborhood stewardship overview,Street Asset Map & Adoption,3,High,Should,Sprint 7,R2,US-03,"adoption,F1.2"
+Story,US-08 Release a spot,Street Asset Map & Adoption,3,Medium,Could,Sprint 8,R2,US-05,"adoption,F1.2"
+Story,US-09 Create a recurring upkeep task,Upkeep Rotas & Reminders,5,Highest,Must,Sprint 8,R2,US-05,"rota,F2.1"
+Story,US-10 Rotate a task across co-stewards,Upkeep Rotas & Reminders,3,Highest,Must,Sprint 9,R2,US-09,"rota,F2.1"
+Story,US-11 See the rota schedule,Upkeep Rotas & Reminders,3,High,Should,Sprint 10,R2,US-10,"rota,F2.1"
+Story,US-12 Edit or pause a task schedule,Upkeep Rotas & Reminders,3,Medium,Could,Sprint 9,R2,US-09,"rota,F2.1"
+Story,US-13 Get a reminder before my turn,Upkeep Rotas & Reminders,5,Highest,Must,Sprint 10,R2,US-10,"reminders,F2.2"
+Story,US-14 Mark my turn done,Upkeep Rotas & Reminders,3,Highest,Must,Sprint 11,R2,US-11,"reminders,F2.2"
+Story,US-15 Request cover for a turn,Upkeep Rotas & Reminders,5,High,Should,Sprint 11,R2,US-13,"reminders,F2.2"
+Story,US-16 Accept or decline a cover request,Upkeep Rotas & Reminders,3,High,Should,Sprint 12,R2,US-15,"reminders,F2.2"
+Story,US-17 Submit a condition report,Condition Reporting & Photo Timeline,5,Highest,Must,Sprint 13,R3,"US-02,T5","reporting,F3.1"
+Story,US-18 Tag before/after photos,Condition Reporting & Photo Timeline,3,High,Should,Sprint 14,R3,US-17,"reporting,F3.1"
+Story,US-19 View a spot's condition timeline,Condition Reporting & Photo Timeline,5,Highest,Must,Sprint 14,R3,US-17,"reporting,F3.1"
+Story,US-20 Capture a photo in-app,Condition Reporting & Photo Timeline,3,Medium,Could,Sprint 15,R3,US-17,"reporting,F3.1"
+Story,US-21 Mark a report resolved,Condition Reporting & Photo Timeline,3,Highest,Must,Sprint 16,R3,US-17,"reporting,F3.2"
+Story,US-22 Flag an issue for escalation,Condition Reporting & Photo Timeline,5,High,Should,Sprint 15,R3,US-17,"reporting,F3.2"
+Story,US-23 Officer view of escalated issues,Condition Reporting & Photo Timeline,5,High,Should,Sprint 16,R3,US-22,"reporting,F3.2"
+Story,US-24 Notify reporter of outcome,Condition Reporting & Photo Timeline,3,Medium,Could,Sprint 17,R3,US-21,"reporting,F3.2"
+Story,US-25 Officer adoption queue,Council Liaison & Escalation,5,Highest,Must,Sprint 17,R3,US-05,"council,F4.1"
+Story,US-26 Approve / decline an adoption,Council Liaison & Escalation,5,Highest,Must,Sprint 18,R3,US-25,"council,F4.1"
+Story,US-27 Notify resident of adoption decision,Council Liaison & Escalation,3,High,Should,Sprint 19,R4,US-26,"council,F4.1"
+Story,US-28 Filter / sort the adoption queue,Council Liaison & Escalation,3,Medium,Could,Sprint 18,R3,US-25,"council,F4.1"
+Story,US-29 Escalate an issue beyond resident scope,Council Liaison & Escalation,5,Highest,Must,Sprint 19,R4,US-02,"council,F4.2"
+Story,US-30 Officer triage of escalations,Council Liaison & Escalation,8,Highest,Must,Sprint 20,R4,US-29,"council,F4.2"
+Story,US-31 Request supplies,Council Liaison & Escalation,5,High,Should,Sprint 22,R4,US-05,"council,F4.2"
+Story,US-32 Auditable authority log,Council Liaison & Escalation,5,High,Should,Sprint 23,R4,"US-26,US-30","council,F4.2"
+Story,US-33 Schedule a working bee,Working Bees & Volunteer Coordination,5,Highest,Must,Sprint 21,R4,US-01,"events,F5.1"
+Story,US-34 List tools & materials needed,Working Bees & Volunteer Coordination,3,High,Should,Sprint 23,R4,US-33,"events,F5.1"
+Story,US-35 Assign volunteer roles,Working Bees & Volunteer Coordination,3,Medium,Could,Sprint 24,R4,US-36,"events,F5.1"
+Story,US-36 RSVP to an event,Working Bees & Volunteer Coordination,3,Highest,Must,Sprint 22,R4,US-33,"events,F5.2"
+Story,US-37 Check in on the day,Working Bees & Volunteer Coordination,5,Highest,Must,Sprint 24,R4,US-36,"events,F5.2"
+Story,US-38 Turnout record,Working Bees & Volunteer Coordination,5,High,Should,Sprint 26,R5,US-37,"events,F5.2"
+Story,US-39 Upkeep streaks,Recognition & Clean Handover,5,Highest,Must,Sprint 25,R5,US-14,"recognition,F6.1"
+Story,US-40 Milestone badges,Recognition & Clean Handover,3,High,Should,Sprint 26,R5,US-39,"recognition,F6.1"
+Story,US-41a Coverage dashboard (adopted/unadopted + %),Recognition & Clean Handover,5,Highest,Must,Sprint 28,R5,US-39,"recognition,F6.1"
+Story,US-41b Lapsing detection + per-spot drill-down,Recognition & Clean Handover,5,High,Should,Sprint 29,R5,US-41a,"recognition,F6.1"
+Story,US-42 Anti-gaming verified actions only,Recognition & Clean Handover,5,Medium,Could,Sprint 32,R6,US-39,"recognition,F6.1"
+Story,US-43 Start a guided handover,Recognition & Clean Handover,5,Highest,Must,Sprint 27,R5,"US-05,US-19","handover,F6.2"
+Story,US-44 Review & accept a handover,Recognition & Clean Handover,5,Highest,Must,Sprint 30,R5,US-43,"handover,F6.2"
+Story,US-45 Claim an orphaned spot,Recognition & Clean Handover,5,High,Should,Sprint 31,R6,US-43,"handover,F6.2"
+Story,US-46 Handover confirmation,Recognition & Clean Handover,2,Medium,Could,Sprint 31,R6,US-44,"handover,F6.2"
+Story,T1 Set up CI/CD pipeline,,3,Highest,Must,Sprint 1,R1,,technical
+Story,T2 Core data model & migrations,,5,Highest,Must,Sprint 1,R1,,technical
+Story,T3 Auth & role-based authorization,,5,Highest,Must,Sprint 2,R1,T2,technical
+Story,T4 Backend API layer,,8,Highest,Must,Sprint 3,R1,"T2,T3",technical
+Story,T5 Media upload & object storage,,5,High,Should,Sprint 12,R2,T4,technical
+Story,T6 Observability & test harness,,3,High,Should,Sprint 2,R1,T1,technical
